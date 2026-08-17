@@ -31,41 +31,40 @@ Vidéo du système en fonctionnement :
 
 ## Nous résumons l'intelligence du système
 
-     CAPTER
+         CAPTER
           ↓
-     DHT11
+          DHT11
           ↓
        ANALYSER
           ↓
-    Comparaison avec
-      seuil 35 °C
+       Comparaison avec
+       seuil 35 °C
           ↓
        DÉCIDER
        ↙     ↘
-       
- Température   Température
+    Température Température
     normale       excessive
     ↓              ↓
- Surveillance   ALARME
+   Surveillance   ALARME
                   ↓
           LED + BUZZER       
-          ↑
-          │
-     COMMUNIQUER
-          │
-    Shield Ethernet
-          │
-          ↓
-    Interface Web AJAX
-          │
-          ↓
-       UTILISATEUR
-          │
-          ↓
-       COMMANDER
-          │
-          ↓
-       5 relais
+            ↑
+            │
+         COMMUNIQUER
+            │
+        Shield Ethernet
+            │
+            ↓
+        Interface Web AJAX
+            │
+            ↓
+         UTILISATEUR
+            │
+            ↓
+         COMMANDER
+            │
+            ↓
+         5 relais
   
        .
 ##
