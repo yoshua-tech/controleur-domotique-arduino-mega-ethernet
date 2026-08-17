@@ -42,6 +42,7 @@ Vidéo du système en fonctionnement :
           ↓
        DÉCIDER
        ↙     ↘
+       
  Température   Température
     normale       excessive
     ↓              ↓
