@@ -42,7 +42,7 @@ Vidéo du système en fonctionnement :
           ↓
        DÉCIDER
        ↙     ↘
-Température   Température
+ Température   Température
     normale       excessive
     ↓              ↓
  Surveillance   ALARME
@@ -52,10 +52,10 @@ Température   Température
           │
      COMMUNIQUER
           │
- Shield Ethernet
+    Shield Ethernet
           │
           ↓
-   Interface Web AJAX
+    Interface Web AJAX
           │
           ↓
        UTILISATEUR
