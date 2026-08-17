@@ -37,22 +37,22 @@ Vidéo du système en fonctionnement :
           ↓
        ANALYSER
           ↓
-   Comparaison avec
+    Comparaison avec
       seuil 35 °C
           ↓
-      DÉCIDER
+       DÉCIDER
        ↙     ↘
- Température   Température
- normale       excessive
+Température   Température
+    normale       excessive
     ↓              ↓
-Surveillance   ALARME
+ Surveillance   ALARME
                   ↓
           LED + BUZZER       
           ↑
           │
      COMMUNIQUER
           │
-Shield Ethernet
+ Shield Ethernet
           │
           ↓
    Interface Web AJAX
@@ -65,13 +65,13 @@ Shield Ethernet
           │
           ↓
        5 RELAIS
-
+##
 
 ## Installation et Utilisation
 1. **Prérequis** : Arduino IDE 1.8+
 2. **Librairies** : Installer `Ethernet` et `DHT sensor library` via le gestionnaire de librairies
-3. **Câblage** : Suivre le schéma dans `/main` et prière de bien vouloir enlever le PIR car non pris en charge par le code dans `/domotique.ino`
-4. **Configuration** : Modifier l'adresse IP statique dans `/domotique.ino` selon votre réseau
+3. **Câblage** : Suivre le schéma dans `/main` et prière de bien vouloir enlever le PIR car non pris en charge par le code dans [Code](/domotique.ino)
+4. **Configuration** : Modifier l'adresse IP statique dans [Code](/domotique.ino) selon votre réseau
 5. **Téléversement** : Charger le code sur l'Arduino Mega
 6. **Accès** : Ouvrir un navigateur et taper l'IP de l'Arduino. Ex: `http://192.168.1.177`
 
