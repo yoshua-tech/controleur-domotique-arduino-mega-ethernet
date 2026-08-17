@@ -64,7 +64,9 @@ Vidéo du système en fonctionnement :
        COMMANDER
           │
           ↓
-       5 RELAIS
+       5 relais
+  
+       .
 ##
 
 ## Installation et Utilisation
