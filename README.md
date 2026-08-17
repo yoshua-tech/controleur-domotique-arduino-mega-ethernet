@@ -27,7 +27,7 @@ Vidéo du système en fonctionnement :
 5. **Fiabilité** : Connexion Ethernet filaire, pas de dépendance au Wifi
 
 ## Schéma de câblage
-[Schéma de câblage](schema/shc_sch_schéma.png)
+[Schéma de câblage](/shc_sch_schéma.png)
 
 ## Nous résumons l'intelligence du système
 
@@ -47,8 +47,7 @@ Vidéo du système en fonctionnement :
     ↓              ↓
 Surveillance   ALARME
                   ↓
-          LED + BUZZER
-                  
+          LED + BUZZER       
           ↑
           │
      COMMUNIQUER
@@ -71,8 +70,8 @@ Shield Ethernet
 ## Installation et Utilisation
 1. **Prérequis** : Arduino IDE 1.8+
 2. **Librairies** : Installer `Ethernet` et `DHT sensor library` via le gestionnaire de librairies
-3. **Câblage** : Suivre le schéma dans `/schema` et prière de bien vouloir enlever le PIR car non pris en charge par le code dans `code/domotique/domotique.ino`
-4. **Configuration** : Modifier l'adresse IP statique dans `code/domotique/domotique.ino` selon votre réseau
+3. **Câblage** : Suivre le schéma dans `/main` et prière de bien vouloir enlever le PIR car non pris en charge par le code dans `/domotique.ino`
+4. **Configuration** : Modifier l'adresse IP statique dans `/domotique.ino` selon votre réseau
 5. **Téléversement** : Charger le code sur l'Arduino Mega
 6. **Accès** : Ouvrir un navigateur et taper l'IP de l'Arduino. Ex: `http://192.168.1.177`
 
